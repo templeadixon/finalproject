@@ -23,10 +23,6 @@ li a:hover {
     background-color:#328D2A;
 }
 
-li a:focus {
-    background-color:#328D2A;
-}
-
 h1 {
     color:#328D2A;
     font-size: 4rem;
@@ -656,11 +652,6 @@ input[type="submit"], select {
 }
 
 .submit:hover {
-    border: 5px solid #0B1532;
-    transition-duration: 0.25s;
-}
-
-.submit:focus {
     border: 5px solid #0B1532;
     transition-duration: 0.25s;
 }
