@@ -19,7 +19,11 @@ li a {
 
 }
   
-li a:hover:focus {
+li a:hover {
+    background-color:#328D2A;
+}
+
+li a:focus {
     background-color:#328D2A;
 }
 
@@ -651,7 +655,12 @@ input[type="submit"], select {
 
 }
 
-.submit:hover:focus {
+.submit:hover {
+    border: 5px solid #0B1532;
+    transition-duration: 0.25s;
+}
+
+.submit:focus {
     border: 5px solid #0B1532;
     transition-duration: 0.25s;
 }
